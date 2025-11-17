@@ -1,38 +1,38 @@
-console.log("JavaScript is awesome".length);
-console.log("JavaScript is awesome".toUpperCase());
+// console.log("JavaScript is awesome".length);
+// console.log("JavaScript is awesome".toUpperCase());
 
-//Змінні та типи
-// Оголошення змінних
-const yearOfBirth = 2006;
-console.log(yearOfBirth);
+// //Змінні та типи
+// // Оголошення змінних
+// const yearOfBirth = 2006;
+// console.log(yearOfBirth);
 
-let age;
-console.log(age);
-age = 14;
-console.log(age);
+// let age;
+// console.log(age);
+// age = 14;
+// console.log(age);
 
-//Константи і Константи
-const COLOR_TEAL = "#009688";
+// //Константи і Константи
+// const COLOR_TEAL = "#009688";
 
-const LOGIN_SUCCESS_MESSAGE = "Ласкаво просимо!";
-//Звернення до змінної
-//Невизначена undefined.
+// const LOGIN_SUCCESS_MESSAGE = "Ласкаво просимо!";
+// //Звернення до змінної
+// //Невизначена undefined.
 
-let username;
-console.log(username);
+// let username;
+// console.log(username);
 
-//Неоголошена(undeclared or defined)
-age = 15;
-console.log(age);
+// //Неоголошена(undeclared or defined)
+// age = 15;
+// console.log(age);
 
-//Примітивні типи
-Number(20);
-String("Mango");
-Boolean(true, false);
-const isLogedin = true;
-const canMerge = false;
-const hasChildren = true;
-const isModalOpen = false;
+// //Примітивні типи
+// Number(20);
+// String("Mango");
+// Boolean(true, false);
+// const isLogedin = true;
+// const canMerge = false;
+// const hasChildren = true;
+// const isModalOpen = false;
 //null(null);
 //undefined(undefined);
 
