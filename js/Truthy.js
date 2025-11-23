@@ -215,4 +215,86 @@
 
 // setTimeout(timeout2sec, 1500);
 
-// console.log("End");
+// console.log("End");//
+// Pomazkov JS
+//https://www.youtube.com/watch?v=nGVYdna4kq4
+
+//Functions on JS in practise
+
+// function createHTMLElement(tag = "button", text = "send", id) {
+//   const element = document.createElement(tag);
+
+//   if (id) {
+//     element.id = id;
+//   }
+//   element.innerText = text;
+
+//   return element;
+// }
+// logArgsToConsole(1, 2);
+// function logArgsToConsole() {
+//   if (!arguments.length) {
+//     return;
+//   }
+//   for (const argument of arguments) {
+//     console.log(argument);
+//   }
+//   console.log("That`s will not be more arguments");
+// }
+
+// //arow functions
+
+// const sayBye = () => {
+//   console.log(arguments);
+// };
+// const value = sayBye(1, 3);
+// console.log(value);
+
+// const brokenLinks = ["vk", "youtube", "facebook"];
+
+// const fixLinksArray = (linksArray) => {
+//   const correctLinks = [];
+//   linksArray.forEach((brokenLink) =>
+//     correctLinks.push("https://" + brokenLink + ".com")
+//   );
+
+//   return correctLinks;
+// };
+
+// console.log(fixLinksArray(brokenLinks));
+
+//this
+//https://www.youtube.com/watch?v=aFxQvCqrUC0
+
+// exports.default = {
+//   title: "phone",
+// };
+// console.log(this);
+// "use strict";
+// function muFunction() {
+//   console.log(this);
+// }
+// muFunction();
+
+// const item = {
+//   title: "phone",
+//   fullPrice: 1000,
+//   calculateOrice(discountPercent = 0) {
+//     console.log(this.fullPrice - (discountPercent / 100) * this.fullPrice);
+//   },
+// };
+// item.calculateOrice();
+
+// function calcDiscount(age) {
+//   if (age > 65) {
+//     console.log(this.price / 2);
+//   } else console.log(this.price);
+// }
+// const item = { title: "phone", price: 1000 };
+// const calcDiscountForEldery = calcDiscount.bind(item, 70);
+// calcDiscountForEldery();
+
+function muFunction() {
+  console.log(this);
+}
+new muFunction();
