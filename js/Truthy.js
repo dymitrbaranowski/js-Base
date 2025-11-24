@@ -294,7 +294,57 @@
 // const calcDiscountForEldery = calcDiscount.bind(item, 70);
 // calcDiscountForEldery();
 
-function muFunction() {
-  console.log(this);
-}
-new muFunction();
+// function muFunction() {
+//   console.log(this);
+// }
+// new muFunction();
+
+//Conclusions Pomazkov JS
+//https://www.youtube.com/watch?v=mI6Jcfsgma4&list=PL4SEpuQTPOCun74XsepgHm62VxBJJmYqM
+// let x = 1;
+
+// const logToConsole = function () {
+//   console.log(x);
+// };
+
+// x = 2;
+
+// logToConsole();
+// x = 3;
+
+// function makeCounter(count) {
+//   return function () {
+//     return count++;
+//   };
+// }
+
+// let counter = makeCounter(0);
+// let counter2 = makeCounter(0);
+
+// alert(counter());
+// alert(counter());
+
+// alert(counter2());
+// alert(counter2());
+
+// function createIncrement() {
+//   let count = 0;
+//   function increment() {
+//     count++;
+//   }
+
+//   function log() {
+//     let message = `Count is ${count}`;
+
+//     console.log(message);
+//   }
+
+//   return [increment, log];
+// }
+
+// const [increment, log] = createIncrement();
+// increment();
+// increment();
+// increment();
+// log();
+//var, let, const
