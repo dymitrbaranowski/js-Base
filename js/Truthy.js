@@ -348,3 +348,20 @@
 // increment();
 // log();
 //var, let, const
+
+function descendingOrder(n) {
+  const numberDigits = String(n).split("").map(Number);
+  console.log(numberDigits);
+
+  const arr = numberDigits.sort((a, b) => b - a);
+
+  const result = Number(arr.join(""));
+  return result;
+}
+console.log(descendingOrder(1213399421));
+
+// const arr = [1, 2, 3, 4];
+// const sum = arr.reduce(
+//   (accumulator, currentValue) => accumulator + currentValue,
+//   0
+// ); // 10
